@@ -12,10 +12,10 @@ export default function About() {
                             Compromisso com a Excelência em Moçambique
                         </h2>
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '1.5rem' }}>
-                            A <strong>T-Meshu Consultoria e Serviços, Sociedade Unipessoal, Lda</strong> é uma empresa moçambicana constituída em 06 de Maio de 2011, com sede na Cidade de Maputo.
+                            A <strong>EDN Vision, Lda</strong> é uma empresa moçambicana especializada no fornecimento de soluções tecnológicas, industriais e empresariais.
                         </p>
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '2rem' }}>
-                            Atuamos nas áreas de consultoria, prestação de serviços, comércio, importação e exportação, bem como na formação e fornecimento de recursos humanos, oferecendo soluções profissionais adaptadas às necessidades do mercado.
+                            A empresa atua nas áreas de fornecimento de material informático, desenvolvimento de software, manutenção de redes, serviços de contabilidade, recursos humanos e fornecimento de equipamentos industriais, oferecendo soluções modernas para empresas e organizações.
                         </p>
 
                         <div className="grid grid-2" style={{ gap: '1rem' }}>
@@ -25,16 +25,16 @@ export default function About() {
                                 </div>
                                 <div>
                                     <div style={{ fontSize: '0.875rem', color: 'var(--text-light)' }}>Fundada em</div>
-                                    <div style={{ fontWeight: '600' }}>2011</div>
+                                    <div style={{ fontWeight: '600' }}>2025</div>
                                 </div>
                             </div>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                                 <div style={{ background: 'var(--bg-main)', padding: '0.75rem', borderRadius: '50%', color: 'var(--accent)' }}>
                                     <MapPin size={24} />
                                 </div>
-                                <div>
+                                <div style={{ minWidth: 0 }}>
                                     <div style={{ fontSize: '0.875rem', color: 'var(--text-light)' }}>Sede</div>
-                                    <div style={{ fontWeight: '600' }}>Maputo, Moçambique</div>
+                                    <div style={{ fontWeight: '600', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>Tete, Moçambique</div>
                                 </div>
                             </div>
                         </div>
@@ -47,18 +47,18 @@ export default function About() {
                             borderRadius: '1rem',
                             borderLeft: '4px solid var(--accent)'
                         }}>
-                            <h3 style={{ marginBottom: '1rem' }}>Administração</h3>
+                            <h3 style={{ marginBottom: '1rem' }}>Excelência Operacional</h3>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
                                 <div style={{ background: 'white', padding: '0.5rem', borderRadius: '50%' }}>
                                     <Building2 size={24} color="var(--primary)" />
                                 </div>
                                 <div>
-                                    <div style={{ fontWeight: '700', fontSize: '1.1rem' }}>Teófilo Jorge Mazive</div>
-                                    <div style={{ color: 'var(--text-light)' }}>Sócio Único e Administrador</div>
+                                    <div style={{ fontWeight: '700', fontSize: '1.1rem' }}>Soluções Modernas</div>
+                                    <div style={{ color: 'var(--text-light)' }}>Visão Estratégica</div>
                                 </div>
                             </div>
                             <p style={{ fontSize: '0.9rem', color: 'var(--text-main)' }}>
-                                Gestão com plenos poderes de representação, nos termos do Código Comercial.
+                                Focados em oferecer o melhor suporte tecnológico e industrial para o crescimento do seu negócio em Moçambique.
                             </p>
                         </div>
                     </div>

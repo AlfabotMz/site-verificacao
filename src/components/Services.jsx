@@ -12,15 +12,14 @@ import {
 } from 'lucide-react';
 
 const services = [
-    { icon: ShoppingBag, title: "Comércio", desc: "Compra e venda de bens diversos." },
-    { icon: Globe, title: "Importação e Exportação", desc: "Soluções de comércio internacional." },
-    { icon: Briefcase, title: "Consultoria Empresarial", desc: "Assessoria estratégica para negócios." },
-    { icon: FileCheck, title: "Auditoria e Fiscalização", desc: "Controle e conformidade rigorosos." },
-    { icon: Scale, title: "Consultoria Jurídica", desc: "Apoio legal e laboral especializado." },
-    { icon: Truck, title: "Representações", desc: "Comissões e consignações comerciais." },
-    { icon: Settings, title: "Prestação de Serviços", desc: "Serviços gerais sob medida." },
-    { icon: Users, title: "Recursos Humanos", desc: "Agenciamento e fornecimento de mão de obra." },
-    { icon: GraduationCap, title: "Formação", desc: "Capacitação e desenvolvimento de equipes." },
+    { icon: Briefcase, title: "Procurement e Material Industrial", desc: "Fornecimento de material industrial especializado." },
+    { icon: Users, title: "Recursos Humanos", desc: "Fornecimento de serviços de recursos humanos qualificados." },
+    { icon: FileCheck, title: "Serviços de Contabilidade", desc: "Soluções profissionais de gestão contábil." },
+    { icon: Settings, title: "Aluguer de Máquinas", desc: "Aluguer de máquinas e equipamentos industriais." },
+    { icon: ShoppingBag, title: "Material Informático", desc: "Fornecimento de material informático de ponta." },
+    { icon: Globe, title: "Desenvolvimento de Software", desc: "Criação de aplicativos e sistemas personalizados." },
+    { icon: GraduationCap, title: "Redes de Computadores", desc: "Manutenção e suporte para redes de computadores." },
+    { icon: Settings, title: "Manutenção Industrial", desc: "Instalação e manutenção de equipamentos elétricos." },
 ];
 
 export default function Services() {

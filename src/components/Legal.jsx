@@ -10,12 +10,13 @@ export default function Legal() {
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '2rem' }}>Dados Legais</h2>
 
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-                            <LegalItem label="Entidade Legal" value="T-MESHU CONSULTORIA E SERVIÇOS, SOCIEDADE UNIPESSOAL, LDA" />
-                            <LegalItem label="Tipo" value="Sociedade por Quotas Unipessoal (Lda)" />
-                            <LegalItem label="NUIT" value="10021607" />
-                            <LegalItem label="Data de Constituição" value="06 de Maio de 2011" />
-                            <LegalItem label="Registo" value="Conservatória das Entidades Legais" />
-                            <LegalItem label="Capital Social" value="10.000,00 MT (Totalmente Realizado)" />
+                            <LegalItem label="Entidade Legal" value="EDN VISION, LDA" />
+                            <LegalItem label="Tipo" value="Sociedade por Quotas" />
+                            <LegalItem label="NUEL" value="105055676" />
+                            <LegalItem label="Data de Constituição" value="03 de Setembro de 2025" />
+                            <LegalItem label="Data de Registo" value="04 de Setembro de 2025" />
+                            <LegalItem label="Registo" value="Conservatória das Entidades Legais – Direcção Nacional dos Registos e Notariado" />
+                            <LegalItem label="Capital Social" value="40.000,00 MT (Capital Realizado)" />
                         </div>
                     </div>
 
@@ -32,11 +33,10 @@ export default function Legal() {
                         }}>
                             <ul style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                                 <AddressItem label="País" value="Moçambique" />
-                                <AddressItem label="Cidade" value="Maputo" />
-                                <AddressItem label="Distrito" value="Kamavota" />
-                                <AddressItem label="Bairro" value="Jardim" />
-                                <AddressItem label="Rua" value="Rua do Jardim nº 793" />
-                                <AddressItem label="Andar" value="Rés-do-chão (R/C)" />
+                                <AddressItem label="Província" value="Tete" />
+                                <AddressItem label="Cidade" value="Cidade de Tete" />
+                                <AddressItem label="Distrito" value="Tete" />
+                                <AddressItem label="Bairro" value="Chingodzi" />
                             </ul>
                         </div>
                     </div>

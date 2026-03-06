@@ -8,15 +8,15 @@ export default function Footer() {
             <div className="container">
                 <div className="grid grid-2" style={{ marginBottom: '3rem' }}>
                     <div>
-                        <h3 style={{ color: 'white', marginBottom: '1rem' }}>T-MESHU</h3>
+                        <h3 style={{ color: 'white', marginBottom: '1rem' }}>EDN VISION</h3>
                         <p style={{ color: '#94a3b8', maxWidth: '400px' }}>
-                            Soluções profissionais em consultoria e serviços para impulsionar o seu negócio em Moçambique.
+                            Soluções tecnológicas, industriais e empresariais modernas para impulsionar o seu negócio em Moçambique.
                         </p>
                     </div>
                     <div style={{ textAlign: 'right' }}>
-                        <h4 style={{ color: 'white', marginBottom: '1rem' }}>Contato</h4>
-                        <p style={{ color: '#94a3b8' }}>Maputo, Moçambique</p>
-                        <p style={{ color: '#94a3b8' }}>Rua do Jardim nº 793</p>
+                        <h4 style={{ color: 'white', marginBottom: '1rem' }}>Sede</h4>
+                        <p style={{ color: '#94a3b8' }}>Chingodzi, Tete</p>
+                        <p style={{ color: '#94a3b8' }}>Moçambique</p>
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ export default function Footer() {
                     color: '#64748b'
                 }}>
                     <p>
-                        © {currentYear} T-Meshu Consultoria e Serviços, Sociedade Unipessoal, Lda — Entidade Legal nº 10021607 — Maputo, Moçambique.
+                        © {currentYear} EDN VISION, LDA — Entidade Legal nº 105055676 — Tete, Moçambique.
                     </p>
                 </div>
             </div>

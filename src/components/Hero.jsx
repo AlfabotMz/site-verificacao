@@ -41,7 +41,7 @@ export default function Hero() {
                             marginBottom: '1rem',
                             display: 'block'
                         }}>
-                            Sociedade Unipessoal, LDA
+                            Sociedade por Quotas
                         </span>
                         <h1 style={{
                             fontSize: 'clamp(2.5rem, 5vw, 4rem)',
@@ -49,8 +49,8 @@ export default function Hero() {
                             marginBottom: '1.5rem',
                             lineHeight: 1.1
                         }}>
-                            T-MESHU <br />
-                            <span style={{ color: 'var(--accent)' }}>CONSULTORIA</span> E SERVIÇOS
+                            EDN <br />
+                            <span style={{ color: 'var(--accent)' }}>VISION</span>, LDA
                         </h1>
                         <p style={{
                             fontSize: '1.25rem',
@@ -58,7 +58,7 @@ export default function Hero() {
                             marginBottom: '2.5rem',
                             maxWidth: '600px'
                         }}>
-                            Soluções profissionais em consultoria, comércio e gestão de recursos humanos, adaptadas às necessidades do mercado moçambicano.
+                            Soluções modernas em tecnologia, indústria e gestão empresarial. Especialistas em fornecimento de material, software e serviços industriais.
                         </p>
                         <div style={{ display: 'flex', gap: '1rem' }}>
                             <a href="#serviços" className="btn btn-primary" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>

@@ -14,10 +14,9 @@ export default function Header() {
   }, []);
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
-      }`}
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-4' : 'bg-transparent py-6'
+        }`}
       style={{
         backgroundColor: isScrolled ? 'rgba(255, 255, 255, 0.9)' : 'transparent',
         backdropFilter: isScrolled ? 'blur(10px)' : 'none',
@@ -32,7 +31,7 @@ export default function Header() {
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div className="logo">
           <h1 style={{ fontSize: '1.5rem', fontWeight: '800', color: isScrolled ? 'var(--primary)' : 'white' }}>
-            T-MESHU
+            EDN VISION
           </h1>
         </div>
 
@@ -41,9 +40,9 @@ export default function Header() {
           <ul style={{ display: 'flex', gap: '2rem' }}>
             {['Sobre', 'Serviços', 'Dados Legais', 'Contato'].map((item) => (
               <li key={item}>
-                <a 
+                <a
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
-                  style={{ 
+                  style={{
                     color: isScrolled ? 'var(--text-main)' : 'white',
                     fontWeight: '500'
                   }}
@@ -54,13 +53,13 @@ export default function Header() {
             ))}
           </ul>
         </nav>
-        
+
         {/* Mobile Menu Button */}
-        <button 
+        <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          style={{ 
-            background: 'none', 
-            border: 'none', 
+          style={{
+            background: 'none',
+            border: 'none',
             color: isScrolled ? 'var(--primary)' : 'white',
             cursor: 'pointer',
             display: 'block' // Show on mobile by default, hide on desktop via media query
@@ -85,7 +84,7 @@ export default function Header() {
           <ul style={{ display: 'flex', flexDirection: 'column', gap: '1rem', textAlign: 'center' }}>
             {['Sobre', 'Serviços', 'Dados Legais', 'Contato'].map((item) => (
               <li key={item}>
-                <a 
+                <a
                   href={`#${item.toLowerCase().replace(' ', '-')}`}
                   onClick={() => setIsMobileMenuOpen(false)}
                   style={{ color: 'var(--primary)', fontWeight: '600' }}
