@@ -9,13 +9,19 @@ export default function About() {
                     <div>
                         <span style={{ color: 'var(--accent)', fontWeight: '600', textTransform: 'uppercase' }}>Sobre Nós</span>
                         <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem', color: 'var(--primary)' }}>
-                            Compromisso com a Excelência em Moçambique
+                            Sobre o OiChat
                         </h2>
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '1.5rem' }}>
-                            A <strong>EDN Vision, Lda</strong> é uma empresa moçambicana especializada no fornecimento de soluções tecnológicas, industriais e empresariais.
+                            O <strong>OiChat</strong> é uma plataforma de comunicação e automação de atendimento ao cliente, projetada para ajudar empresas a gerenciar conversas com seus clientes em canais de mensagens como Facebook Messenger e Instagram.
+                        </p>
+                        <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '1.5rem' }}>
+                            Com o OiChat, as empresas podem receber, organizar e responder a mensagens de clientes a partir de um único painel. A plataforma também permite automatizar respostas comuns, gerenciar solicitações de suporte e melhorar o tempo de resposta.
+                        </p>
+                        <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '1.5rem' }}>
+                            O OiChat utiliza dados de mensagens fornecidos pelas plataformas Facebook e Instagram apenas para permitir que as empresas leiam e respondam às mensagens enviadas por seus clientes. Isso ajuda as empresas a fornecer um melhor atendimento ao cliente e lidar com dúvidas sobre produtos, serviços e pedidos.
                         </p>
                         <p style={{ fontSize: '1.1rem', color: 'var(--text-main)', marginBottom: '2rem' }}>
-                            A empresa atua nas áreas de fornecimento de material informático, desenvolvimento de software, manutenção de redes, serviços de contabilidade, recursos humanos e fornecimento de equipamentos industriais, oferecendo soluções modernas para empresas e organizações.
+                            A plataforma é fornecida e operada pela <strong>EDN Vision, Lda</strong>, uma empresa com sede em Moçambique.
                         </p>
 
                         <div className="grid grid-2" style={{ gap: '1rem' }}>

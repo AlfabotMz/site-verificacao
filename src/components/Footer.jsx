@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -8,15 +9,16 @@ export default function Footer() {
             <div className="container">
                 <div className="grid grid-2" style={{ marginBottom: '3rem' }}>
                     <div>
-                        <h3 style={{ color: 'white', marginBottom: '1rem' }}>EDN VISION</h3>
+                        <h3 style={{ color: 'white', marginBottom: '1rem' }}>OiChat</h3>
                         <p style={{ color: '#94a3b8', maxWidth: '400px' }}>
-                            Soluções tecnológicas, industriais e empresariais modernas para impulsionar o seu negócio em Moçambique.
+                            Plataforma de comunicação e automação para gerenciar conversas nas redes sociais. Fornecido por EDN VISION.
                         </p>
                     </div>
-                    <div style={{ textAlign: 'right' }}>
-                        <h4 style={{ color: 'white', marginBottom: '1rem' }}>Sede</h4>
-                        <p style={{ color: '#94a3b8' }}>Chingodzi, Tete</p>
-                        <p style={{ color: '#94a3b8' }}>Moçambique</p>
+                    <div style={{ textAlign: 'right', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                        <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Legal</h4>
+                        <Link to="/privacy" style={{ color: '#94a3b8', textDecoration: 'none' }}>Política de Privacidade</Link>
+                        <Link to="/terms" style={{ color: '#94a3b8', textDecoration: 'none' }}>Termos de Serviço</Link>
+                        <Link to="/platform-data" style={{ color: '#94a3b8', textDecoration: 'none' }}>Uso de Dados da Plataforma</Link>
                     </div>
                 </div>
 
@@ -27,8 +29,11 @@ export default function Footer() {
                     fontSize: '0.875rem',
                     color: '#64748b'
                 }}>
-                    <p>
+                    <p style={{ marginBottom: '0.5rem' }}>
                         © {currentYear} EDN VISION, LDA — Entidade Legal nº 105055676 — Tete, Moçambique.
+                    </p>
+                    <p>
+                        OiChat — Comunicação Inteligente para o seu Negócio.
                     </p>
                 </div>
             </div>
