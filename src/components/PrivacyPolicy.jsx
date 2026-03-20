@@ -1,5 +1,6 @@
+"use client";
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Shield, ArrowLeft } from 'lucide-react';
 
 export default function PrivacyPolicy() {
@@ -10,7 +11,7 @@ export default function PrivacyPolicy() {
     return (
         <div style={{ backgroundColor: 'var(--bg-main)', minHeight: '100vh', padding: '5rem 0' }}>
             <div className="container">
-                <Link to="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent)', fontWeight: '600', marginBottom: '2rem' }}>
+                <Link href="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', color: 'var(--accent)', fontWeight: '600', marginBottom: '2rem' }}>
                     <ArrowLeft size={20} />
                     Voltar para a Home
                 </Link>

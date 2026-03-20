@@ -1,5 +1,6 @@
+"use client";
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -16,9 +17,9 @@ export default function Footer() {
                     </div>
                     <div style={{ textAlign: 'right', display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                         <h4 style={{ color: 'white', marginBottom: '0.5rem' }}>Legal</h4>
-                        <Link to="/privacy" style={{ color: '#94a3b8', textDecoration: 'none' }}>Política de Privacidade</Link>
-                        <Link to="/terms" style={{ color: '#94a3b8', textDecoration: 'none' }}>Termos de Serviço</Link>
-                        <Link to="/platform-data" style={{ color: '#94a3b8', textDecoration: 'none' }}>Uso de Dados da Plataforma</Link>
+                        <Link href="/privacy" style={{ color: '#94a3b8', textDecoration: 'none' }}>Política de Privacidade</Link>
+                        <Link href="/terms" style={{ color: '#94a3b8', textDecoration: 'none' }}>Termos de Serviço</Link>
+                        <Link href="/platform-data" style={{ color: '#94a3b8', textDecoration: 'none' }}>Uso de Dados da Plataforma</Link>
                     </div>
                 </div>
 
